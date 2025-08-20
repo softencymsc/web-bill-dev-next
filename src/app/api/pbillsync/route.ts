@@ -39,7 +39,7 @@ export async function GET(request: Request) {
         CASHCNTRY, BCOUNTRY, SCOUNTRY,
         CASHMOBILE, BMOBPHONE, SMOBPHONE
       FROM BILLIN
-      WHERE CUSTCODE = ? AND (WEBIMPORT != 1 OR WEBIMPORT IS NULL)
+      WHERE CUSTCODE = ? 
     `, [tenantId]) as [any[], any];
 
     await connection.end();
