@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "site": "next-dev-pos",
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      { "source": "/login", "destination": "/login.html" }
+    ]
+  }
+}
