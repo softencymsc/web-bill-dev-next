@@ -1,3 +1,4 @@
+/* eslint-disable prefer-const */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState, useContext, useEffect } from "react";
@@ -947,7 +948,7 @@ const AddBill: React.FC<{ page: string; id: string | null }> = ({ page, id }) =>
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="px-2 py-1 text-left font-semibold">Bill No</th>
-                          <th className="px-2 py-1 text-left font-semibold">Customer</th>
+                          <th className="px-2 py-1 text-left font-semibold">Vendor</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -976,7 +977,7 @@ const AddBill: React.FC<{ page: string; id: string | null }> = ({ page, id }) =>
                 className="mb-1 ml-1 font-medium text-gray-700 text-xs"
                 htmlFor="CUSTNAME"
               >
-                Customer Name
+                Vendor Name
               </label>
               <input
                 type="text"
@@ -1011,7 +1012,7 @@ const AddBill: React.FC<{ page: string; id: string | null }> = ({ page, id }) =>
                       <thead>
                         <tr className="bg-gray-50">
                           <th className="px-2 py-1 text-left font-semibold">Bill No</th>
-                          <th className="px-2 py-1 text-left font-semibold">Customer</th>
+                          <th className="px-2 py-1 text-left font-semibold">Vendor</th>
                         </tr>
                       </thead>
                       <tbody>
